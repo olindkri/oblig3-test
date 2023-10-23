@@ -1,0 +1,3 @@
+*.pytest_cashe
+*.xml
+*.idea
