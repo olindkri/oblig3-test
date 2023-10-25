@@ -29,4 +29,5 @@ I had to do the following steps:
    - Lastly i added code to run the actual tests:
      <br>
      `run: pytest -v -s`
+     <br>
      `working-directory: ${{ github.workspace }}`
