@@ -4,7 +4,7 @@ from leap_year import leapyear
 
 
 # Parametrize known years divisible by 4 but not divisible by 100 in "year", every value "year" should return True.
-@pytest.mark.parametrize("year", [2004, 1612, 2408, 2824, 3220, 1240])
+@pytest.mark.parametrize("year", [2004, 1612, 2408, 2824, 3220, 1240, 2012])
 def test_leapyear_is_divisible_by_4_but_not_100(year):
     assert leapyear(year) == True
 
